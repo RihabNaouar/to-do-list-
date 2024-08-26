@@ -1,0 +1,52 @@
+.theForm {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+background: #edeef0;
+border-radius: 30px;
+padding-left: 0px;
+margin-bottom: 15px;}
+input {
+    padding: 10px;
+    flex: 1;
+    border:  none;
+    background: none;
+}
+button{
+    margin-left: 370px;
+    display: block;
+    border : none;
+    outline:  none;
+    padding: 10px 30px;
+    background: #ec9f65;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+.taskList {
+    margin-top: 20px;
+  }
+  
+  .taskItem {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+.taskItem h3 {
+    display: flex;
+    margin: 0 0 5px 0;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .taskItem p {
+    display: flex;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
