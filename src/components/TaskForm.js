@@ -1,6 +1,6 @@
 import './TaskForm.css'
 import React, { useState } from 'react';
-const TaskForm = ({ onAddTask }) => {
+const TaskForm = () => {
   const [taskName, setTaskName] = useState('');
   const [taskDescription, setTaskDescription] = useState('');
   const [tasks, setTasks] = useState([]);
@@ -11,8 +11,7 @@ const TaskForm = ({ onAddTask }) => {
     if (!taskName || !taskDescription) {
       alert('Both fields are required');
       return;
-    }
-    
+    } 
     const newTask = { name: taskName, description: taskDescription , number: taskNumber };
     setTasks([...tasks, newTask]); // Ajoute la nouvelle tâche à la liste des tâches
     setTaskName('');
